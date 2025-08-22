@@ -1,0 +1,81 @@
+# Careem UAE Promotional Scraper Configuration
+
+# API Configuration
+api:
+  base_url: "https://appengine.careemapis.com/v1/page"
+  endpoints:
+    homepage: "ea-discovery-home"
+    search: "food-hybrid-dishes-search"
+    food_home: "ea-discovery-home"
+  
+  # Common headers for all requests
+  headers:
+    x-careem-agent: "ICMA"
+    x-careem-beta: "false"
+    user-agent: "ICMA/25.32.0"
+    agent: "ICMA"
+    time-zone: "Asia/Dubai"
+    x-careem-appengine-api-version: "2025-07-07"
+    x-careem-operating-system: "iOS/18.6.1"
+    x-careem-permissions: "location:granted"
+    accept-language: "en"
+    x-careem-device-id: "D0Do1cW3V2mftjsX"
+    accept: "*/*"
+  
+  # Location settings (Dubai coordinates)
+  location:
+    lat: "25.25424950960893"
+    lng: "55.29878170304264"
+    user_location: "25.25424950960893,55.29878170304264"
+    delivery_location: "25.254242600603668,55.298777620374366"
+
+# Scraping Configuration
+scraping:
+  # Surfaces to scrape
+  surfaces:
+    - name: "homepage"
+      endpoint: "ea-discovery-home"
+      params:
+        selectedServiceAreaId: "0"
+        refreshCounter: "3"
+    
+    - name: "search"
+      endpoint: "food-hybrid-dishes-search"
+      params:
+        query: "Burger"
+    
+    - name: "category_burgers"
+      endpoint: "food-hybrid-dishes-search"
+      params:
+        query: "Burger"
+    
+    - name: "category_groceries"
+      endpoint: "ea-discovery-home"
+      params:
+        selectedServiceAreaId: "0"
+        refreshCounter: "5"
+
+  # Rate limiting
+  rate_limit:
+    requests_per_second: 2
+    max_retries: 3
+    retry_delay: 1  # seconds
+
+# Output Configuration
+output:
+  directory: "output"
+  filename_format: "careem_promos_{timestamp}.csv"
+  timezone: "Asia/Dubai"
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "careem_scraper.log"
+
+# Authentication (these should be updated with valid tokens)
+auth:
+  # Note: These tokens expire and need to be updated regularly
+  authorization: "Bearer eyJraWQiOiJlYTU4Y2VlZS0yMmU2LTRhNzEtYjkzOS0xNWE3N2IzNzQ3MGMiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3ODMwNjYyMSIsImF1ZCI6ImNvbS5jYXJlZW0uaW50ZXJuYWwiLCJhY2Nlc3NfdHlwZSI6IkNVU1RPTUVSIiwidXNlcl9pZCI6NzgzMDY2MjEsImF6cCI6IjI4MWYwY2JhLWI1MGMtNDZjZC04ZGUwLWUzNTVkZWMwODk3Yi5pY21hLmNhcmVlbS5jb20iLCJraW5kIjoiQ1VTVE9NRVIiLCJzY29wZSI6IndlYmxvZ2luX2F1dGhlbnRpY2F0b3IgcGF5X3dhbGxldF9jaGFuZ2VfY3VycmVuY3kgc3Vic2NyaXB0aW9ucyB3YWxsZXQgYWRkcmVzcyBvcGVuaWQgeGNtYSBwcm9maWxlIHBheW1lbnRzIG90cCBjbGllbnRfbWFuYWdlbWVudCBkZWxpdmVyaWVzIGNwYXlfYW9zX3JlYWQgY3BheV93YWxsZXRfY3VzdG9tZXIgcGhvbmUgb2ZmbGluZV9hY2Nlc3MgbG9jYXRpb25zIGJvb2tpbmdzIGVtYWlsIiwiaXNzIjoiaHR0cHM6XC9cL2lkZW50aXR5LmNhcmVlbS5jb21cLyIsImV4cCI6MTc1NTg1MzkxOCwiaWF0IjoxNzU1NzY3NTE4LCJqdGkiOiJiMjdmMjYzOC04MzViLTRiZjQtYmU2Yi1lNjJjNWQ0NDBhNWEifQ.jQTGBDNzG5EhUCmRYm3spiMTAks6cJCz-ZdmlHNP1CvZRTuqlnNtdY0ax0glsOszgew8F4D_ldHDKKfnpU6Kp2IZXw8qzWav3xXrDJd2RBKYEgNpmP3WQuKgvNHr1Zjw0MnmUKMZevdnRRyvzMa7yZtnY89-6gvTOOSIG_MZw_wUsaaG8DownriqoA8iTHEMQtdvZYdB7_Q8reFE3nRan7PRqGWKl3XOARESkqeppzff3JRYY9y71JSsri8sUos02ox0WkLq9nQrQGZ7VFaTD4LncFtXCO4xcHkKdGjp84dUBHZGqBke13k9cLNV-FNbbGsJHIp5NFBrQZcRoFctFg"
+  session_id: "47D505A9-3149-41CA-B1B1-31A19A0AB41F"
+  appengine_session_id: "1dc0f04d-cd8b-498f-94e5-b0e2827365ff"

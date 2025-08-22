@@ -1,0 +1,10 @@
+surface,placement_type,image_url,scrape_timestamp
+homepage,banner,https://careem-assets.s3.amazonaws.com/promotions/ramadan_banner_2025.jpg,2025-08-21T22:45:26.247114+04:00
+homepage,banner,https://careem-assets.s3.amazonaws.com/promotions/food_delivery_promo.jpg,2025-08-21T22:45:26.247256+04:00
+homepage,carousel,https://careem-assets.s3.amazonaws.com/promotions/restaurant_week_2025.jpg,2025-08-21T22:45:26.247265+04:00
+homepage,banner,https://careem-assets.s3.amazonaws.com/promotions/grocery_discount.jpg,2025-08-21T22:45:26.247270+04:00
+search,module,https://careem-assets.s3.amazonaws.com/promotions/burger_search_banner.jpg,2025-08-21T22:45:28.256333+04:00
+search,module,https://careem-assets.s3.amazonaws.com/promotions/burger_restaurants.jpg,2025-08-21T22:45:28.256384+04:00
+search,search_promotion,https://careem-assets.s3.amazonaws.com/promotions/burger_deals.jpg,2025-08-21T22:45:28.256400+04:00
+category_burgers,banner,https://careem-assets.s3.amazonaws.com/promotions/burger_category_banner.jpg,2025-08-21T22:45:30.265017+04:00
+category_groceries,module,https://careem-assets.s3.amazonaws.com/promotions/grocery_category_banner.jpg,2025-08-21T22:45:32.275649+04:00

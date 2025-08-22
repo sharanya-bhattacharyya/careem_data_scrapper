@@ -1,0 +1,12 @@
+2025-08-21 22:45:25,226 - __main__ - INFO - Starting Careem promotional scraper (DEMO MODE)
+2025-08-21 22:45:25,226 - __main__ - INFO - Starting to scrape surface: homepage
+2025-08-21 22:45:26,247 - __main__ - INFO - Scraped 4 promos from homepage
+2025-08-21 22:45:27,250 - __main__ - INFO - Starting to scrape surface: search
+2025-08-21 22:45:28,256 - __main__ - INFO - Scraped 3 promos from search
+2025-08-21 22:45:29,261 - __main__ - INFO - Starting to scrape surface: category_burgers
+2025-08-21 22:45:30,265 - __main__ - INFO - Scraped 1 promos from category_burgers
+2025-08-21 22:45:31,270 - __main__ - INFO - Starting to scrape surface: category_groceries
+2025-08-21 22:45:32,275 - __main__ - INFO - Scraped 1 promos from category_groceries
+2025-08-21 22:45:33,280 - __main__ - INFO - Total promos scraped: 9
+2025-08-21 22:45:33,281 - __main__ - INFO - Saved 9 promos to output/careem_promos_20250821_224533.csv
+2025-08-21 22:45:33,281 - __main__ - INFO - Demo scraping completed successfully. Output: output/careem_promos_20250821_224533.csv
