@@ -103,6 +103,130 @@ The script will:
 3. Save results to a CSV file in the `output/` directory
 4. Log all activities to both console and `careem_scraper.log`
 
+### Airflow DAG Usage
+
+The project includes a complete Airflow DAG (`airflow_dag.py`) for production orchestration:
+
+#### DAG Features
+- **Scheduled execution**: Runs every 6 hours by default
+- **Task orchestration**: 6 tasks with proper dependencies
+- **Error handling**: Retry logic and failure notifications
+- **Data validation**: Output quality checks
+- **Reporting**: JSON reports with scraping statistics
+- **Cleanup**: Automatic removal of old files (7+ days)
+- **Notifications**: Email alerts for success/failure
+
+#### DAG Tasks
+1. **`validate_configuration`**: Checks config and dependencies
+2. **`scrape_careem_promotions`**: Main scraping workflow
+3. **`validate_output`**: Validates CSV structure and data quality
+4. **`generate_report`**: Creates JSON summary report
+5. **`cleanup_old_files`**: Removes files older than 7 days
+6. **`send_success_notification`**: Sends status notifications
+
+#### Task Dependencies
+```
+validate_configuration >> scrape_careem_promotions >> validate_output >> generate_report
+                                                      validate_output >> cleanup_old_files
+generate_report >> send_success_notification
+cleanup_old_files >> send_success_notification
+```
+
+#### Airflow Setup
+
+1. **Copy DAG to Airflow dags folder**:
+   ```bash
+   cp airflow_dag.py /path/to/airflow/dags/
+   cp careem_scraper.py /path/to/airflow/dags/
+   cp config.yaml /path/to/airflow/dags/
+   ```
+
+2. **Install dependencies in Airflow environment**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Configure Airflow variables** (optional):
+   ```bash
+   airflow variables set careem_email_notifications "admin@example.com"
+   airflow variables set careem_output_directory "/path/to/output"
+   ```
+
+4. **Update DAG configuration**:
+   - Modify `default_args['email']` with actual email addresses
+   - Adjust `schedule_interval` as needed
+   - Update `start_date` if required
+
+5. **Enable the DAG** in Airflow UI:
+   - Navigate to Airflow web interface
+   - Find `careem_promotional_scraper` DAG
+   - Toggle the DAG to "On"
+
+#### DAG Configuration Options
+
+**Schedule Intervals**:
+```python
+# Run every 6 hours (default)
+schedule_interval='0 */6 * * *'
+
+# Run daily at 2 AM
+schedule_interval='0 2 * * *'
+
+# Run every 2 hours
+schedule_interval='0 */2 * * *'
+
+# Run on weekdays only
+schedule_interval='0 9 * * 1-5'
+```
+
+**Email Notifications**:
+```python
+default_args = {
+    'email': ['admin@example.com', 'data-team@company.com'],
+    'email_on_failure': True,
+    'email_on_retry': False,
+}
+```
+
+**Retry Configuration**:
+```python
+default_args = {
+    'retries': 3,
+    'retry_delay': timedelta(minutes=5),
+}
+```
+
+#### Monitoring and Alerts
+
+The DAG provides comprehensive monitoring:
+
+- **Success notifications**: Email with scraping statistics
+- **Failure alerts**: Immediate notification on errors
+- **Data validation**: Quality checks on generated CSV
+- **File cleanup**: Automatic maintenance of output directory
+- **Detailed logging**: Full audit trail in Airflow logs
+
+#### Output Files
+
+The DAG generates:
+- **CSV files**: `careem_promos_YYYYMMDD_HHMMSS.csv`
+- **Reports**: `scraping_report_YYYYMMDD_HHMMSS.json`
+- **Logs**: Available in Airflow task logs
+
+#### Troubleshooting Airflow DAG
+
+**Common Issues**:
+1. **Import errors**: Ensure all files are in the dags directory
+2. **Configuration errors**: Check `config.yaml` path and format
+3. **Authentication failures**: Verify tokens in configuration
+4. **Permission errors**: Check file/directory permissions
+
+**Debug Steps**:
+1. Check Airflow task logs for detailed error messages
+2. Verify Python path includes project directory
+3. Test configuration validation task separately
+4. Ensure all dependencies are installed in Airflow environment
+
 ### Output File Format
 
 The CSV file will contain the following columns:

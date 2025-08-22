@@ -44,6 +44,14 @@ This project delivers a comprehensive Python workflow to scrape promotional plac
 - **Demo mode** with simulated data
 - **Comprehensive test suite**
 
+### 7. **Airflow DAG** (`airflow_dag.py`)
+- **Production orchestration** with 6 tasks
+- **Scheduled execution** (every 6 hours by default)
+- **Data validation** and quality checks
+- **Automated reporting** and notifications
+- **File cleanup** and maintenance
+- **Error handling** with retry logic
+
 ## 🚀 Key Features
 
 ### **Multi-Surface Scraping**
@@ -75,6 +83,14 @@ This project delivers a comprehensive Python workflow to scrape promotional plac
 - ✅ Timestamped filenames (YYYYMMDD_HHMMSS)
 - ✅ Comprehensive logging to file and console
 - ✅ Progress tracking and statistics
+
+### **Airflow Orchestration**
+- ✅ Production-ready DAG with 6 tasks
+- ✅ Scheduled execution (configurable intervals)
+- ✅ Data validation and quality checks
+- ✅ Automated reporting and notifications
+- ✅ File cleanup and maintenance
+- ✅ Error handling with retry logic
 
 ## 📊 CSV Output Format
 
@@ -121,6 +137,20 @@ python3 demo_scraper.py
 # 4. Update authentication tokens in config.yaml
 # 5. Run production scraper
 python3 careem_scraper.py
+```
+
+### **Airflow DAG Setup**
+```bash
+# 1. Copy files to Airflow dags directory
+cp airflow_dag.py /path/to/airflow/dags/
+cp careem_scraper.py /path/to/airflow/dags/
+cp config.yaml /path/to/airflow/dags/
+
+# 2. Install Airflow dependencies
+pip install apache-airflow>=2.7.0
+
+# 3. Update DAG configuration (email, schedule, etc.)
+# 4. Enable DAG in Airflow UI
 ```
 
 ### **Configuration Updates Required**
@@ -180,6 +210,10 @@ The demo generated **9 promotional entries** across **4 surfaces**:
 - [x] Comprehensive documentation
 - [x] Test suite
 - [x] Modular architecture
+- [x] Airflow DAG for production orchestration
+- [x] Automated reporting and notifications
+- [x] Data validation and quality checks
+- [x] File cleanup and maintenance
 
 ## 🚀 Next Steps
 
@@ -193,9 +227,10 @@ The demo generated **9 promotional entries** across **4 surfaces**:
    - Adjust extraction logic if needed
 
 3. **Production Deployment**
-   - Set up scheduled runs (cron, Airflow, etc.)
+   - Set up scheduled runs using the provided Airflow DAG
    - Monitor log files for errors
    - Implement data validation if needed
+   - Configure email notifications for alerts
 
 ## 📝 Notes
 
