@@ -517,10 +517,10 @@ def main():
     if promos:
         # Save to CSV
         filepath = scraper.save_to_csv(promos)
-        print(f"✅ Successfully scraped {len(promos)} promotional items")
-        print(f"📁 Results saved to: {filepath}")
+        print(f" Successfully scraped {len(promos)} promotional items")
+        print(f" Results saved to: {filepath}")
     else:
-        print("⚠️  No promotional data found")
+        print("  No promotional data found")
 
 
 if __name__ == "__main__":
