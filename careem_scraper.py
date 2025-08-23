@@ -473,7 +473,7 @@ class CareemScraper:
             all_promos.extend(promos)
             
             # Add delay between surfaces
-            time.sleep(5)
+            time.sleep(2)
         
         return all_promos
     
