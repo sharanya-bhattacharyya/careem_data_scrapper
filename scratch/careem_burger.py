@@ -1,43 +1,38 @@
 import requests
 
 cookies = {
-    '__cf_bm': 'Fe5PV_sHnKfBR4Xm9J.4v3LJa8IzMUYPScOP9XrkVTg-1755945095-1.0.1.1-U.q9SFt_foYLb2A6fhwvjT0WvKV4ggwUtZrNS83qhdhc0iOT3z_fPQFJmPbIxeO9R1kxaiLvn6x6DUKFlQaOWhRPToEj80UvMMcbD1UxXiU',
-    '_cfuvid': '2dg21b8utBMcGbFnPFLoxVoW0xZKDAm9HMaxXPDogHg-1755944706603-0.0.1.1-604800000',
-    'dtCookiez48j3ehh': 'v_4_srv_6_sn_9F0556474D97AF03A70B12208CBC52CF_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1',
+    '_cfuvid': 'xMWRgNv.Q7Hqi0dwbNyXDTadlU.pZ_wWPdVI6Yp_u5Q-1755968052094-0.0.1.1-604800000',
+    'dtCookiez48j3ehh': 'v_4_srv_4_sn_50CC5D85F82345BA404FA486851C035A_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1',
+    '__cf_bm': 'QOQt1JGSRcyZKty7apjQPNLX1eSoowuzuwUn2bPpchM-1755968015-1.0.1.1-vwjkE0WC0qYeMMt6YHcGrD73iNZfx_ibTODMfI.RTT82jxzx1deBoM7gov6MYkgiFUaZqiy0yMyAScAbZE2PUGfSKxCVZi660NDbFac7hRw',
 }
 
 headers = {
     'x-careem-agent': 'ICMA',
-    'session_id': '66E13F10-8B37-4367-A418-31306AAC0265',
+    'session_id': '21C7750A-962F-4DDC-B62E-3DA1C8CA828F',
     'x-careem-beta': 'false',
-    # 'cookie': '__cf_bm=Fe5PV_sHnKfBR4Xm9J.4v3LJa8IzMUYPScOP9XrkVTg-1755945095-1.0.1.1-U.q9SFt_foYLb2A6fhwvjT0WvKV4ggwUtZrNS83qhdhc0iOT3z_fPQFJmPbIxeO9R1kxaiLvn6x6DUKFlQaOWhRPToEj80UvMMcbD1UxXiU; _cfuvid=2dg21b8utBMcGbFnPFLoxVoW0xZKDAm9HMaxXPDogHg-1755944706603-0.0.1.1-604800000; dtCookiez48j3ehh=v_4_srv_6_sn_9F0556474D97AF03A70B12208CBC52CF_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1',
-    'x-careem-delivery-location': '25.254298691412355,55.298786860924025',
+    # 'cookie': '_cfuvid=xMWRgNv.Q7Hqi0dwbNyXDTadlU.pZ_wWPdVI6Yp_u5Q-1755968052094-0.0.1.1-604800000; dtCookiez48j3ehh=v_4_srv_4_sn_50CC5D85F82345BA404FA486851C035A_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; __cf_bm=QOQt1JGSRcyZKty7apjQPNLX1eSoowuzuwUn2bPpchM-1755968015-1.0.1.1-vwjkE0WC0qYeMMt6YHcGrD73iNZfx_ibTODMfI.RTT82jxzx1deBoM7gov6MYkgiFUaZqiy0yMyAScAbZE2PUGfSKxCVZi660NDbFac7hRw',
+    'x-careem-delivery-location': '25.25429965142188,55.29878644330265',
     'user-agent': 'ICMA/25.32.0',
-    'x-careem-session-id': '66E13F10-8B37-4367-A418-31306AAC0265',
+    'x-careem-session-id': '21C7750A-962F-4DDC-B62E-3DA1C8CA828F',
     'agent': 'ICMA',
     'time-zone': 'Asia/Dubai',
-    'x-careem-appengine-page-session-id': 'b66bba57-5804-402b-9b08-e0e29cc45180',
-    'lng': '55.298786860924025',
+    'lng': '55.29878644330265',
+    'x-careem-appengine-page-session-id': '101fbfc5-f691-4bcd-b76b-9becb5b2239c',
     'version': '25.32.0',
     'x-careem-version': '25.32.0',
-    'x-careem-user-location': '25.254298691412355,55.298786860924025',
-    'authorization': 'Bearer eyJraWQiOiJlYTU4Y2VlZS0yMmU2LTRhNzEtYjkzOS0xNWE3N2IzNzQ3MGMiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3ODMwNjYyMSIsImF1ZCI6ImNvbS5jYXJlZW0uaW50ZXJuYWwiLCJhY2Nlc3NfdHlwZSI6IkNVU1RPTUVSIiwidXNlcl9pZCI6NzgzMDY2MjEsImF6cCI6IjI4MWYwY2JhLWI1MGMtNDZjZC04ZGUwLWUzNTVkZWMwODk3Yi5pY21hLmNhcmVlbS5jb20iLCJraW5kIjoiQ1VTVE9NRVIiLCJzY29wZSI6IndlYmxvZ2luX2F1dGhlbnRpY2F0b3IgcGF5X3dhbGxldF9jaGFuZ2VfY3VycmVuY3kgc3Vic2NyaXB0aW9ucyB3YWxsZXQgYWRkcmVzcyBvcGVuaWQgeGNtYSBwcm9maWxlIHBheW1lbnRzIG90cCBjbGllbnRfbWFuYWdlbWVudCBkZWxpdmVyaWVzIGNwYXlfYW9zX3JlYWQgY3BheV93YWxsZXRfY3VzdG9tZXIgcGhvbmUgb2ZmbGluZV9hY2Nlc3MgbG9jYXRpb25zIGJvb2tpbmdzIGVtYWlsIiwiaXNzIjoiaHR0cHM6XC9cL2lkZW50aXR5LmNhcmVlbS5jb21cLyIsImV4cCI6MTc1NTk1MTE4OCwiaWF0IjoxNzU1ODY0Nzg4LCJqdGkiOiIzMzVkNTQ2OC1jNDk2LTRmY2MtYTNiZS1lNDIzYTA2MDI5NGYifQ.naeAHsgNBesdMYKGVAsUsEzKOuuyORO6_G_0un9czEMRISPRHXquIPi2bE8GfCiU9HHrsLEy7fpbNgCKyxRHQrmIU5SLJJDLU9EEy38KBNA89nHv-fmEDOWl5ZdUa-56dfk1JRW7-qYXlqDKibxnf109fjvfF5fuAonWNyZ_a4PPwmyEF1PgR2q4NgToIV2PE2HHsqrZ46wdrLLdYsGieRnYFYz_hQVVOlFUkgrKMnjL3Mrer4aCIIpArGYKbOKu8VUBhYkAgsi9ogbZRxyvgpYWF396zxzlHs2tV-IZVqk9Fxul2328-U5YOKTEfhqxIV1OkSbwBEjxDhjJvZOHbg',
-    'x-careem-operating-system': 'iOS/18.6.1',
-    'accept-language': 'en',
-    'x-careem-permissions': 'location:granted',
-    'lat': '25.254298691412355',
+    'x-careem-user-location': '25.25429965142188,55.29878644330265',
     'x-careem-appengine-api-version': '2025-07-07',
+    'x-careem-operating-system': 'iOS/18.6.1',
+    'authorization': 'Bearer eyJraWQiOiIzOGU2OTcxMS03MjFiLTQxMTctYmUxNi02Y2Y0ZjkzOTAyZWMiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3ODMwNjYyMSIsImF1ZCI6ImNvbS5jYXJlZW0uaW50ZXJuYWwiLCJhY2Nlc3NfdHlwZSI6IkNVU1RPTUVSIiwidXNlcl9pZCI6NzgzMDY2MjEsImF6cCI6IjI4MWYwY2JhLWI1MGMtNDZjZC04ZGUwLWUzNTVkZWMwODk3Yi5pY21hLmNhcmVlbS5jb20iLCJraW5kIjoiQ1VTVE9NRVIiLCJzY29wZSI6IndlYmxvZ2luX2F1dGhlbnRpY2F0b3IgcGF5X3dhbGxldF9jaGFuZ2VfY3VycmVuY3kgc3Vic2NyaXB0aW9ucyB3YWxsZXQgYWRkcmVzcyBvcGVuaWQgeGNtYSBwcm9maWxlIHBheW1lbnRzIG90cCBjbGllbnRfbWFuYWdlbWVudCBkZWxpdmVyaWVzIGNwYXlfYW9zX3JlYWQgY3BheV93YWxsZXRfY3VzdG9tZXIgcGhvbmUgb2ZmbGluZV9hY2Nlc3MgbG9jYXRpb25zIGJvb2tpbmdzIGVtYWlsIiwiaXNzIjoiaHR0cHM6XC9cL2lkZW50aXR5LmNhcmVlbS5jb21cLyIsImV4cCI6MTc1NjA1MzAyMywiaWF0IjoxNzU1OTY2NjIzLCJqdGkiOiI5ZGI1OWJjZi1lYTg2LTRiMTEtYjBkZi1jOWY4MWZkNjBjYjAifQ.YZY61hclPjNGXjFtYnv2vaW905gfKLJIv0UYEy4ajDfm5h-HOP0jsQWKkWxYl9P3FnBkYSAsjk5AbaGoS-dWNiXiYeCrb1JrnFK0xUikCiob1p3YcxevvSp6teLYAkSPHqeazP0yruT1lrup0bnsqCwvqCoYNaOj8VZsbVrBxyaLg2cggvJqyWzqlm90q_bR-DK_zc0XhJfpyMB_K-O9bo7hH-OPyxJ7J9Gq9IPmkZjJNy1xMIAuTdU7CQP1UkL2PXFYEAfybsstqFDOOSqXDWAa7m87CKdz5M__TIA1sgRbKzFbVncuAnVQbukRoL6SRu7zfBl6bnE7olozePFptA',
+    'x-careem-permissions': 'location:granted',
+    'accept-language': 'en',
+    'lat': '25.25429965142188',
     'x-careem-device-id': 'D0Do1cW3V2mftjsX',
     'accept': '*/*',
 }
 
-params = {
-    'query': 'burger',
-}
-
 response = requests.get(
-    'https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search',
-    params=params,
+    'https://appengine.careemapis.com/v1/page/food-subpage?category=burger&item_queries=burger&section=tiles&taxonomy_node_ids=fe5ba275-00a6-48f7-a9a6-81865a1dc751&controls=false&boost_popular=1&custom_boosting=1&superset_cuisine_ids=844&superset_tag_ids=53,356&template=burger',
     cookies=cookies,
     headers=headers,
 )

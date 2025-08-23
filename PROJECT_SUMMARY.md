@@ -144,14 +144,9 @@ Currently **5 endpoints** with surface-specific authentication:
 # 1. Install dependencies
 pip install -r requirements.txt
 
-# 2. Test setup
-python3 test_scraper.py
 
-# 3. Run demo (simulated data)
-python3 demo_scraper.py
-
-# 4. Update authentication tokens in config.yaml
-# 5. Run production scraper
+# 2. Update authentication tokens in config.yaml
+# 3. Run production scraper
 python3 careem_scraper.py
 ```
 

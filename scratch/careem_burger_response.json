@@ -1,1 +1,1135 @@
-{"metadata":{"page":"food-hybrid-dishes-search","description":"Hybrid dishes text search","page_error_count":0,"event_configuration":{"domain_name":"food"}},"body":{"type":"feed","metadata":{"template":"food-hybrid-dishes-search"},"content":[{"id":"food-hybrid-dishes-search","type":"hybrid-card-list","version":1,"next_page_url":"/v1/page/food-hybrid-dishes-search/component/v/1/food-hybrid-dishes-search?query=burger\u0026sp_page=2\u0026sp_q=burger","paginated":true,"event_configuration":{"event_domain":"food"},"content":[{"id":"1065583","header":{"id":"1065583","title":"Daddy's Bites","user_rating":{"value":0,"rating":"4.8","label":"(999+)","state":"highlight"},"eta":"60 - 70 mins","eta_state":"default","promotion_tags":[{"text":"","background_color":"cPlus","icon":"CareemPlus"},{"text":"Crazy Deals: 50% off","background_color":"promotion","icon":"Promotion"}],"action":{"type":"deep-link","url":"careemfood://restaurants/1065583?brand_id=1022653\u0026business_type=restaurants\u0026context_keywords=burger\u0026context_type=dishes_text_search\u0026merchant_type=normal"},"event_configuration":{"entity":{"name":"merchant","attributes":{"is_appengine":true}},"extras":{"domain":"mot","sub_domain":"food"}}},"content":[{"id":"3071073813","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/ClassicBeefBurgerCombo-1065583.jpg","item_promotion_tags":[]},"trailing_content":{"title":"Classic Beef Burger Combo","price":"AED 59","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1065583/menu/items/3071073813"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":59,"currency":"AED","item_availability":true,"item_id":3071073813,"item_name":"Classic Beef Burger Combo"}},"extras":{"domain":"mot","sub_domain":"food"}}},{"id":"3071074770","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/ClassicbeefBurger-1065583.jpg","item_promotion_tags":[]},"trailing_content":{"title":"Classic Beef Burger","price":"AED 41","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1065583/menu/items/3071074770"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":41,"currency":"AED","item_availability":true,"item_id":3071074770,"item_name":"Classic Beef Burger"}},"extras":{"domain":"mot","sub_domain":"food"}}},{"id":"3071074826","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/DoubleBeefy-1065583.jpg","item_promotion_tags":[]},"trailing_content":{"title":"Double Beefy Burger","price":"AED 65","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1065583/menu/items/3071074826"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":65,"currency":"AED","item_availability":true,"item_id":3071074826,"item_name":"Double Beefy Burger"}},"extras":{"domain":"mot","sub_domain":"food"}}},{"id":"3071074158","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/DoubleBeefyCombo-1065583.jpg","item_promotion_tags":[]},"trailing_content":{"title":"Double Beefy Burger Combo","price":"AED 83","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1065583/menu/items/3071074158"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":83,"currency":"AED","item_availability":true,"item_id":3071074158,"item_name":"Double Beefy Burger Combo"}},"extras":{"domain":"mot","sub_domain":"food"}}},{"id":"3071074840","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/TruffleBurger-1065583.jpg","item_promotion_tags":[]},"trailing_content":{"title":"Truffle Burger","price":"AED 55","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1065583/menu/items/3071074840"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":55,"currency":"AED","item_availability":true,"item_id":3071074840,"item_name":"Truffle Burger"}},"extras":{"domain":"mot","sub_domain":"food"}}}],"event_configuration":{"entity":{"name":"merchant","attributes":{"brand_id":1022653,"brand_name":"Daddy's Bites - UAE","eta_minutes":68,"eta_range":"60 - 70","merchant_id":1065583,"merchant_name":"Daddy's Bites","merchant_rating":4.8,"no_of_reviews":1753}}},"background_color":"primary"},{"id":"1059814","header":{"id":"1059814","title":"Josef's Burger (Classic Station)","user_rating":{"value":0,"rating":"4.7","label":"(900+)","state":"highlight"},"eta":"25 - 35 mins","eta_state":"highlight","promotion_tags":[{"text":"","background_color":"cPlus","icon":"CareemPlus"},{"text":"50% off up to AED 30","background_color":"promotion","icon":"Promotion"}],"action":{"type":"deep-link","url":"careemfood://restaurants/1059814?brand_id=1026714\u0026business_type=restaurants\u0026context_keywords=burger\u0026context_type=dishes_text_search\u0026merchant_type=normal"},"event_configuration":{"entity":{"name":"merchant","attributes":{"is_appengine":true}},"extras":{"domain":"mot","sub_domain":"food"}}},"content":[{"id":"3005285692","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/bf870e222782fdca08d7493d1c457344.png","item_promotion_tags":[]},"trailing_content":{"title":"The Special One","price":"Price on selection","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1059814/menu/items/3005285692"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":0,"currency":"AED","item_availability":true,"item_id":3005285692,"item_name":"The Special One"}},"extras":{"domain":"mot","sub_domain":"food"}}},{"id":"3005285712","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/27ea53beb4dc72e7444516d935202b81.png","item_promotion_tags":[]},"trailing_content":{"title":"The Grand Truffle","price":"Price on selection","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1059814/menu/items/3005285712"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":0,"currency":"AED","item_availability":true,"item_id":3005285712,"item_name":"The Grand Truffle"}},"extras":{"domain":"mot","sub_domain":"food"}}},{"id":"3005285667","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/1a37e8133bfddb87d9c70bf9c98a0084.png","item_promotion_tags":[]},"trailing_content":{"title":"Classic Burger","price":"Price on selection","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1059814/menu/items/3005285667"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":0,"currency":"AED","item_availability":true,"item_id":3005285667,"item_name":"Classic Burger"}},"extras":{"domain":"mot","sub_domain":"food"}}},{"id":"3005285742","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/f09c5b24e2e0fda6c5c88485e435b420.png","item_promotion_tags":[]},"trailing_content":{"title":"Master Chicken Burger","price":"Price on selection","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1059814/menu/items/3005285742"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":0,"currency":"AED","item_availability":true,"item_id":3005285742,"item_name":"Master Chicken Burger"}},"extras":{"domain":"mot","sub_domain":"food"}}},{"id":"3005285722","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/9ae40d73fdb356708cef4687f0cba03e.png","item_promotion_tags":[]},"trailing_content":{"title":"Avocado Truffle Burger","price":"Price on selection","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1059814/menu/items/3005285722"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":0,"currency":"AED","item_availability":true,"item_id":3005285722,"item_name":"Avocado Truffle Burger"}},"extras":{"domain":"mot","sub_domain":"food"}}}],"event_configuration":{"entity":{"name":"merchant","attributes":{"brand_id":1026714,"brand_name":"Josef's Burger (Classic Station) - UAE","eta_minutes":32,"eta_range":"25 - 35","merchant_id":1059814,"merchant_name":"Josef's Burger (Classic Station)","merchant_rating":4.7,"no_of_reviews":980}}},"background_color":"primary"},{"id":"1061692","header":{"id":"1061692","title":"Burger Smash","user_rating":{"value":0,"rating":"4.8","label":"(700+)","state":"highlight"},"eta":"45 - 55 mins","eta_state":"default","promotion_tags":[{"text":"","background_color":"cPlus","icon":"CareemPlus"},{"text":"20% off on select items","background_color":"promotion","icon":"Promotion"}],"action":{"type":"deep-link","url":"careemfood://restaurants/1061692?brand_id=1027303\u0026business_type=restaurants\u0026context_keywords=burger\u0026context_type=dishes_text_search\u0026merchant_type=normal"},"event_configuration":{"entity":{"name":"merchant","attributes":{"is_appengine":true}},"extras":{"domain":"mot","sub_domain":"food"}}},"content":[{"id":"2348674281","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/fbd1bcc99881ffd2b704314ab10b5cc0.jpg","item_promotion_tags":[]},"trailing_content":{"title":"Smash Combo","price":"AED 45","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1061692/menu/items/2348674281"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":45,"currency":"AED","item_availability":true,"item_id":2348674281,"item_name":"Smash Combo"}},"extras":{"domain":"mot","sub_domain":"food"}}},{"id":"2336883217","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/47a0f4feec5a8a42db8bc336ac799f51.jpg","item_promotion_tags":[]},"trailing_content":{"title":"Classic Smash","price":"AED 30","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1061692/menu/items/2336883217"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":30,"currency":"AED","item_availability":true,"item_id":2336883217,"item_name":"Classic Smash"}},"extras":{"domain":"mot","sub_domain":"food"}}},{"id":"2336883448","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/d83973d8f7ba22945861a6020e8b9449.jpg","item_promotion_tags":[]},"trailing_content":{"title":"Signature Smash","price":"AED 46","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1061692/menu/items/2336883448"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":46,"currency":"AED","item_availability":true,"item_id":2336883448,"item_name":"Signature Smash"}},"extras":{"domain":"mot","sub_domain":"food"}}},{"id":"2336883169","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/3c6889a370302f7f9423b36c9334c293.jpg","item_promotion_tags":[]},"trailing_content":{"title":"Crispy Chicken Burger","price":"AED 34","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1061692/menu/items/2336883169"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":34,"currency":"AED","item_availability":true,"item_id":2336883169,"item_name":"Crispy Chicken Burger"}},"extras":{"domain":"mot","sub_domain":"food"}}},{"id":"2336883415","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/2a7eab94f82dd54ffec193bcd93ee5e8.jpg","item_promotion_tags":[]},"trailing_content":{"title":"Truffle Smash","price":"AED 40","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1061692/menu/items/2336883415"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":40,"currency":"AED","item_availability":true,"item_id":2336883415,"item_name":"Truffle Smash"}},"extras":{"domain":"mot","sub_domain":"food"}}}],"event_configuration":{"entity":{"name":"merchant","attributes":{"brand_id":1027303,"brand_name":"Burger Smash - UAE","eta_minutes":54,"eta_range":"45 - 55","merchant_id":1061692,"merchant_name":"Burger Smash","merchant_rating":4.8,"no_of_reviews":765}}},"background_color":"primary"},{"id":"1025642","header":{"id":"1025642","title":"High Joint","user_rating":{"value":0,"rating":"4.7","label":"(999+)","state":"highlight"},"eta":"45 - 55 mins","eta_state":"default","promotion_tags":[{"text":"","background_color":"cPlus","icon":"CareemPlus"},{"text":"30% off on select items","background_color":"promotion","icon":"Promotion"}],"action":{"type":"deep-link","url":"careemfood://restaurants/1025642?brand_id=6517\u0026business_type=restaurants\u0026context_keywords=burger\u0026context_type=dishes_text_search\u0026merchant_type=normal"},"event_configuration":{"entity":{"name":"merchant","attributes":{"is_appengine":true}},"extras":{"domain":"mot","sub_domain":"food"}}},"content":[{"id":"3077780404","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/caa1be7ff081f244d3a81dbb716cbf2b.jpeg","item_promotion_tags":[]},"trailing_content":{"title":"High Burger","price":"AED 39","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1025642/menu/items/3077780404"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":39,"currency":"AED","item_availability":true,"item_id":3077780404,"item_name":"High Burger"}},"extras":{"domain":"mot","sub_domain":"food"}}},{"id":"3077780537","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/8b9d764b5a96119f5f7f8ad220f7fb59.jpeg","item_promotion_tags":[]},"trailing_content":{"title":"High Jamz","price":"AED 59","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1025642/menu/items/3077780537"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":59,"currency":"AED","item_availability":true,"item_id":3077780537,"item_name":"High Jamz"}},"extras":{"domain":"mot","sub_domain":"food"}}},{"id":"3077780405","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/07a6230d30106b4f480990822b342414.jpeg","item_promotion_tags":[]},"trailing_content":{"title":"High Chicken Burger","price":"AED 38","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1025642/menu/items/3077780405"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":38,"currency":"AED","item_availability":true,"item_id":3077780405,"item_name":"High Chicken Burger"}},"extras":{"domain":"mot","sub_domain":"food"}}},{"id":"3077780683","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/abfc359aeaac72777f0e6a418a3e2c65.jpeg","item_promotion_tags":[]},"trailing_content":{"title":"Double High","price":"AED 56","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1025642/menu/items/3077780683"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":56,"currency":"AED","item_availability":true,"item_id":3077780683,"item_name":"Double High"}},"extras":{"domain":"mot","sub_domain":"food"}}},{"id":"3077780771","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/a46b5dc217f78ca2e780aceba16d1788.jpeg","item_promotion_tags":[]},"trailing_content":{"title":"The Smokey","price":"AED 47","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1025642/menu/items/3077780771"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":47,"currency":"AED","item_availability":true,"item_id":3077780771,"item_name":"The Smokey"}},"extras":{"domain":"mot","sub_domain":"food"}}}],"event_configuration":{"entity":{"name":"merchant","attributes":{"brand_id":6517,"brand_name":"High Joint - UAE","eta_minutes":51,"eta_range":"45 - 55","merchant_id":1025642,"merchant_name":"High Joint","merchant_rating":4.7,"no_of_reviews":1481}}},"background_color":"primary"},{"id":"1010389","header":{"id":"1010389","title":"Alien Burger","user_rating":{"value":0,"rating":"4.8","label":"(999+)","state":"highlight"},"eta":"45 - 55 mins","eta_state":"default","promotion_tags":[{"text":"","background_color":"cPlus","icon":"CareemPlus"},{"text":"Crazy Deals: 30% off","background_color":"promotion","icon":"Promotion"}],"action":{"type":"deep-link","url":"careemfood://restaurants/1010389?brand_id=1005243\u0026business_type=restaurants\u0026context_keywords=burger\u0026context_type=dishes_text_search\u0026merchant_type=normal"},"event_configuration":{"entity":{"name":"merchant","attributes":{"is_appengine":true}},"extras":{"domain":"mot","sub_domain":"food"}}},"content":[{"id":"2424221529","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/635ae8bec6e042bd7a28b48df8b8fede.jpg","item_promotion_tags":[]},"trailing_content":{"title":"Classic Cheeseburger*","price":"AED 32","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1010389/menu/items/2424221529"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":32,"currency":"AED","item_availability":true,"item_id":2424221529,"item_name":"Classic Cheeseburger*"}},"extras":{"domain":"mot","sub_domain":"food"}}},{"id":"2424221362","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/63991b529f689b1d9d09536265f39982.jpg","item_promotion_tags":[]},"trailing_content":{"title":"Classic Cheeseburger Meal","price":"AED 49","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1010389/menu/items/2424221362"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":49,"currency":"AED","item_availability":true,"item_id":2424221362,"item_name":"Classic Cheeseburger Meal"}},"extras":{"domain":"mot","sub_domain":"food"}}},{"id":"2424221486","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/377c4b9c310cb30ef5819447f7ec61ce.jpg","item_promotion_tags":[]},"trailing_content":{"title":"Truff Burger","price":"AED 42","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1010389/menu/items/2424221486"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":42,"currency":"AED","item_availability":true,"item_id":2424221486,"item_name":"Truff Burger"}},"extras":{"domain":"mot","sub_domain":"food"}}},{"id":"2424221482","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/a5e2b5e9f2cc5ad5515794de360510ce.jpg","item_promotion_tags":[]},"trailing_content":{"title":"Crispy Chicken Burger","price":"AED 34","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1010389/menu/items/2424221482"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":34,"currency":"AED","item_availability":true,"item_id":2424221482,"item_name":"Crispy Chicken Burger"}},"extras":{"domain":"mot","sub_domain":"food"}}},{"id":"2424221517","leading_content":{"image_url":"https://careem-catalog-media.imgix.net/catalogs/d430d34efb8f99172028e8fa45cd2391.jpg","item_promotion_tags":[]},"trailing_content":{"title":"The Alien Burger Meal","price":"AED 76","original_price":""},"action":{"type":"deep-link","url":"careemfood://restaurants/1010389/menu/items/2424221517"},"event_configuration":{"entity":{"name":"itemcard","attributes":{"amount":76,"currency":"AED","item_availability":true,"item_id":2424221517,"item_name":"The Alien Burger Meal"}},"extras":{"domain":"mot","sub_domain":"food"}}}],"event_configuration":{"entity":{"name":"merchant","attributes":{"brand_id":1005243,"brand_name":"Alien Burger - UAE","eta_minutes":50,"eta_range":"45 - 55","merchant_id":1010389,"merchant_name":"Alien Burger","merchant_rating":4.8,"no_of_reviews":3133}}},"background_color":"primary"}]}]}}
+{
+    "metadata": {
+        "page": "food-hybrid-dishes-search",
+        "description": "Hybrid dishes text search",
+        "page_error_count": 0,
+        "event_configuration": {
+            "domain_name": "food"
+        }
+    },
+    "body": {
+        "type": "feed",
+        "metadata": {
+            "template": "food-hybrid-dishes-search"
+        },
+        "content": [
+            {
+                "id": "food-hybrid-dishes-search",
+                "type": "hybrid-card-list",
+                "version": 1,
+                "next_page_url": "/v1/page/food-hybrid-dishes-search/component/v/1/food-hybrid-dishes-search?query=burger\u0026sp_page=2\u0026sp_q=burger",
+                "paginated": true,
+                "event_configuration": {
+                    "event_domain": "food"
+                },
+                "content": [
+                    {
+                        "id": "1065583",
+                        "header": {
+                            "id": "1065583",
+                            "title": "Daddy's Bites",
+                            "user_rating": {
+                                "value": 0,
+                                "rating": "4.8",
+                                "label": "(999+)",
+                                "state": "highlight"
+                            },
+                            "eta": "60 - 70 mins",
+                            "eta_state": "default",
+                            "promotion_tags": [
+                                {
+                                    "text": "",
+                                    "background_color": "cPlus",
+                                    "icon": "CareemPlus"
+                                },
+                                {
+                                    "text": "Crazy Deals: 50% off",
+                                    "background_color": "promotion",
+                                    "icon": "Promotion"
+                                }
+                            ],
+                            "action": {
+                                "type": "deep-link",
+                                "url": "careemfood://restaurants/1065583?brand_id=1022653\u0026business_type=restaurants\u0026context_keywords=burger\u0026context_type=dishes_text_search\u0026merchant_type=normal"
+                            },
+                            "event_configuration": {
+                                "entity": {
+                                    "name": "merchant",
+                                    "attributes": {
+                                        "is_appengine": true
+                                    }
+                                },
+                                "extras": {
+                                    "domain": "mot",
+                                    "sub_domain": "food"
+                                }
+                            }
+                        },
+                        "content": [
+                            {
+                                "id": "3071073813",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/ClassicBeefBurgerCombo-1065583.jpg",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "Classic Beef Burger Combo",
+                                    "price": "AED 59",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1065583/menu/items/3071073813"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 59,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 3071073813,
+                                            "item_name": "Classic Beef Burger Combo"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "3071074770",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/ClassicbeefBurger-1065583.jpg",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "Classic Beef Burger",
+                                    "price": "AED 41",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1065583/menu/items/3071074770"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 41,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 3071074770,
+                                            "item_name": "Classic Beef Burger"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "3071074826",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/DoubleBeefy-1065583.jpg",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "Double Beefy Burger",
+                                    "price": "AED 65",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1065583/menu/items/3071074826"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 65,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 3071074826,
+                                            "item_name": "Double Beefy Burger"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "3071074158",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/DoubleBeefyCombo-1065583.jpg",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "Double Beefy Burger Combo",
+                                    "price": "AED 83",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1065583/menu/items/3071074158"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 83,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 3071074158,
+                                            "item_name": "Double Beefy Burger Combo"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "3071074840",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/TruffleBurger-1065583.jpg",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "Truffle Burger",
+                                    "price": "AED 55",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1065583/menu/items/3071074840"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 55,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 3071074840,
+                                            "item_name": "Truffle Burger"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            }
+                        ],
+                        "event_configuration": {
+                            "entity": {
+                                "name": "merchant",
+                                "attributes": {
+                                    "brand_id": 1022653,
+                                    "brand_name": "Daddy's Bites - UAE",
+                                    "eta_minutes": 68,
+                                    "eta_range": "60 - 70",
+                                    "merchant_id": 1065583,
+                                    "merchant_name": "Daddy's Bites",
+                                    "merchant_rating": 4.8,
+                                    "no_of_reviews": 1753
+                                }
+                            }
+                        },
+                        "background_color": "primary"
+                    },
+                    {
+                        "id": "1059814",
+                        "header": {
+                            "id": "1059814",
+                            "title": "Josef's Burger (Classic Station)",
+                            "user_rating": {
+                                "value": 0,
+                                "rating": "4.7",
+                                "label": "(900+)",
+                                "state": "highlight"
+                            },
+                            "eta": "25 - 35 mins",
+                            "eta_state": "highlight",
+                            "promotion_tags": [
+                                {
+                                    "text": "",
+                                    "background_color": "cPlus",
+                                    "icon": "CareemPlus"
+                                },
+                                {
+                                    "text": "50% off up to AED 30",
+                                    "background_color": "promotion",
+                                    "icon": "Promotion"
+                                }
+                            ],
+                            "action": {
+                                "type": "deep-link",
+                                "url": "careemfood://restaurants/1059814?brand_id=1026714\u0026business_type=restaurants\u0026context_keywords=burger\u0026context_type=dishes_text_search\u0026merchant_type=normal"
+                            },
+                            "event_configuration": {
+                                "entity": {
+                                    "name": "merchant",
+                                    "attributes": {
+                                        "is_appengine": true
+                                    }
+                                },
+                                "extras": {
+                                    "domain": "mot",
+                                    "sub_domain": "food"
+                                }
+                            }
+                        },
+                        "content": [
+                            {
+                                "id": "3005285692",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/bf870e222782fdca08d7493d1c457344.png",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "The Special One",
+                                    "price": "Price on selection",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1059814/menu/items/3005285692"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 0,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 3005285692,
+                                            "item_name": "The Special One"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "3005285712",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/27ea53beb4dc72e7444516d935202b81.png",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "The Grand Truffle",
+                                    "price": "Price on selection",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1059814/menu/items/3005285712"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 0,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 3005285712,
+                                            "item_name": "The Grand Truffle"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "3005285667",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/1a37e8133bfddb87d9c70bf9c98a0084.png",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "Classic Burger",
+                                    "price": "Price on selection",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1059814/menu/items/3005285667"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 0,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 3005285667,
+                                            "item_name": "Classic Burger"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "3005285742",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/f09c5b24e2e0fda6c5c88485e435b420.png",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "Master Chicken Burger",
+                                    "price": "Price on selection",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1059814/menu/items/3005285742"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 0,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 3005285742,
+                                            "item_name": "Master Chicken Burger"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "3005285722",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/9ae40d73fdb356708cef4687f0cba03e.png",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "Avocado Truffle Burger",
+                                    "price": "Price on selection",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1059814/menu/items/3005285722"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 0,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 3005285722,
+                                            "item_name": "Avocado Truffle Burger"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            }
+                        ],
+                        "event_configuration": {
+                            "entity": {
+                                "name": "merchant",
+                                "attributes": {
+                                    "brand_id": 1026714,
+                                    "brand_name": "Josef's Burger (Classic Station) - UAE",
+                                    "eta_minutes": 32,
+                                    "eta_range": "25 - 35",
+                                    "merchant_id": 1059814,
+                                    "merchant_name": "Josef's Burger (Classic Station)",
+                                    "merchant_rating": 4.7,
+                                    "no_of_reviews": 980
+                                }
+                            }
+                        },
+                        "background_color": "primary"
+                    },
+                    {
+                        "id": "1061692",
+                        "header": {
+                            "id": "1061692",
+                            "title": "Burger Smash",
+                            "user_rating": {
+                                "value": 0,
+                                "rating": "4.8",
+                                "label": "(700+)",
+                                "state": "highlight"
+                            },
+                            "eta": "45 - 55 mins",
+                            "eta_state": "default",
+                            "promotion_tags": [
+                                {
+                                    "text": "",
+                                    "background_color": "cPlus",
+                                    "icon": "CareemPlus"
+                                },
+                                {
+                                    "text": "20% off on select items",
+                                    "background_color": "promotion",
+                                    "icon": "Promotion"
+                                }
+                            ],
+                            "action": {
+                                "type": "deep-link",
+                                "url": "careemfood://restaurants/1061692?brand_id=1027303\u0026business_type=restaurants\u0026context_keywords=burger\u0026context_type=dishes_text_search\u0026merchant_type=normal"
+                            },
+                            "event_configuration": {
+                                "entity": {
+                                    "name": "merchant",
+                                    "attributes": {
+                                        "is_appengine": true
+                                    }
+                                },
+                                "extras": {
+                                    "domain": "mot",
+                                    "sub_domain": "food"
+                                }
+                            }
+                        },
+                        "content": [
+                            {
+                                "id": "2348674281",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/fbd1bcc99881ffd2b704314ab10b5cc0.jpg",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "Smash Combo",
+                                    "price": "AED 45",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1061692/menu/items/2348674281"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 45,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 2348674281,
+                                            "item_name": "Smash Combo"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "2336883217",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/47a0f4feec5a8a42db8bc336ac799f51.jpg",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "Classic Smash",
+                                    "price": "AED 30",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1061692/menu/items/2336883217"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 30,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 2336883217,
+                                            "item_name": "Classic Smash"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "2336883448",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/d83973d8f7ba22945861a6020e8b9449.jpg",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "Signature Smash",
+                                    "price": "AED 46",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1061692/menu/items/2336883448"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 46,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 2336883448,
+                                            "item_name": "Signature Smash"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "2336883169",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/3c6889a370302f7f9423b36c9334c293.jpg",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "Crispy Chicken Burger",
+                                    "price": "AED 34",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1061692/menu/items/2336883169"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 34,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 2336883169,
+                                            "item_name": "Crispy Chicken Burger"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "2336883415",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/2a7eab94f82dd54ffec193bcd93ee5e8.jpg",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "Truffle Smash",
+                                    "price": "AED 40",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1061692/menu/items/2336883415"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 40,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 2336883415,
+                                            "item_name": "Truffle Smash"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            }
+                        ],
+                        "event_configuration": {
+                            "entity": {
+                                "name": "merchant",
+                                "attributes": {
+                                    "brand_id": 1027303,
+                                    "brand_name": "Burger Smash - UAE",
+                                    "eta_minutes": 54,
+                                    "eta_range": "45 - 55",
+                                    "merchant_id": 1061692,
+                                    "merchant_name": "Burger Smash",
+                                    "merchant_rating": 4.8,
+                                    "no_of_reviews": 765
+                                }
+                            }
+                        },
+                        "background_color": "primary"
+                    },
+                    {
+                        "id": "1025642",
+                        "header": {
+                            "id": "1025642",
+                            "title": "High Joint",
+                            "user_rating": {
+                                "value": 0,
+                                "rating": "4.7",
+                                "label": "(999+)",
+                                "state": "highlight"
+                            },
+                            "eta": "45 - 55 mins",
+                            "eta_state": "default",
+                            "promotion_tags": [
+                                {
+                                    "text": "",
+                                    "background_color": "cPlus",
+                                    "icon": "CareemPlus"
+                                },
+                                {
+                                    "text": "30% off on select items",
+                                    "background_color": "promotion",
+                                    "icon": "Promotion"
+                                }
+                            ],
+                            "action": {
+                                "type": "deep-link",
+                                "url": "careemfood://restaurants/1025642?brand_id=6517\u0026business_type=restaurants\u0026context_keywords=burger\u0026context_type=dishes_text_search\u0026merchant_type=normal"
+                            },
+                            "event_configuration": {
+                                "entity": {
+                                    "name": "merchant",
+                                    "attributes": {
+                                        "is_appengine": true
+                                    }
+                                },
+                                "extras": {
+                                    "domain": "mot",
+                                    "sub_domain": "food"
+                                }
+                            }
+                        },
+                        "content": [
+                            {
+                                "id": "3077780404",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/caa1be7ff081f244d3a81dbb716cbf2b.jpeg",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "High Burger",
+                                    "price": "AED 39",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1025642/menu/items/3077780404"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 39,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 3077780404,
+                                            "item_name": "High Burger"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "3077780537",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/8b9d764b5a96119f5f7f8ad220f7fb59.jpeg",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "High Jamz",
+                                    "price": "AED 59",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1025642/menu/items/3077780537"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 59,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 3077780537,
+                                            "item_name": "High Jamz"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "3077780405",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/07a6230d30106b4f480990822b342414.jpeg",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "High Chicken Burger",
+                                    "price": "AED 38",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1025642/menu/items/3077780405"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 38,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 3077780405,
+                                            "item_name": "High Chicken Burger"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "3077780683",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/abfc359aeaac72777f0e6a418a3e2c65.jpeg",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "Double High",
+                                    "price": "AED 56",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1025642/menu/items/3077780683"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 56,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 3077780683,
+                                            "item_name": "Double High"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "3077780771",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/a46b5dc217f78ca2e780aceba16d1788.jpeg",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "The Smokey",
+                                    "price": "AED 47",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1025642/menu/items/3077780771"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 47,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 3077780771,
+                                            "item_name": "The Smokey"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            }
+                        ],
+                        "event_configuration": {
+                            "entity": {
+                                "name": "merchant",
+                                "attributes": {
+                                    "brand_id": 6517,
+                                    "brand_name": "High Joint - UAE",
+                                    "eta_minutes": 51,
+                                    "eta_range": "45 - 55",
+                                    "merchant_id": 1025642,
+                                    "merchant_name": "High Joint",
+                                    "merchant_rating": 4.7,
+                                    "no_of_reviews": 1481
+                                }
+                            }
+                        },
+                        "background_color": "primary"
+                    },
+                    {
+                        "id": "1010389",
+                        "header": {
+                            "id": "1010389",
+                            "title": "Alien Burger",
+                            "user_rating": {
+                                "value": 0,
+                                "rating": "4.8",
+                                "label": "(999+)",
+                                "state": "highlight"
+                            },
+                            "eta": "45 - 55 mins",
+                            "eta_state": "default",
+                            "promotion_tags": [
+                                {
+                                    "text": "",
+                                    "background_color": "cPlus",
+                                    "icon": "CareemPlus"
+                                },
+                                {
+                                    "text": "Crazy Deals: 30% off",
+                                    "background_color": "promotion",
+                                    "icon": "Promotion"
+                                }
+                            ],
+                            "action": {
+                                "type": "deep-link",
+                                "url": "careemfood://restaurants/1010389?brand_id=1005243\u0026business_type=restaurants\u0026context_keywords=burger\u0026context_type=dishes_text_search\u0026merchant_type=normal"
+                            },
+                            "event_configuration": {
+                                "entity": {
+                                    "name": "merchant",
+                                    "attributes": {
+                                        "is_appengine": true
+                                    }
+                                },
+                                "extras": {
+                                    "domain": "mot",
+                                    "sub_domain": "food"
+                                }
+                            }
+                        },
+                        "content": [
+                            {
+                                "id": "2424221529",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/635ae8bec6e042bd7a28b48df8b8fede.jpg",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "Classic Cheeseburger*",
+                                    "price": "AED 32",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1010389/menu/items/2424221529"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 32,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 2424221529,
+                                            "item_name": "Classic Cheeseburger*"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "2424221362",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/63991b529f689b1d9d09536265f39982.jpg",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "Classic Cheeseburger Meal",
+                                    "price": "AED 49",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1010389/menu/items/2424221362"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 49,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 2424221362,
+                                            "item_name": "Classic Cheeseburger Meal"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "2424221486",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/377c4b9c310cb30ef5819447f7ec61ce.jpg",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "Truff Burger",
+                                    "price": "AED 42",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1010389/menu/items/2424221486"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 42,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 2424221486,
+                                            "item_name": "Truff Burger"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "2424221482",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/a5e2b5e9f2cc5ad5515794de360510ce.jpg",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "Crispy Chicken Burger",
+                                    "price": "AED 34",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1010389/menu/items/2424221482"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 34,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 2424221482,
+                                            "item_name": "Crispy Chicken Burger"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "2424221517",
+                                "leading_content": {
+                                    "image_url": "https://careem-catalog-media.imgix.net/catalogs/d430d34efb8f99172028e8fa45cd2391.jpg",
+                                    "item_promotion_tags": []
+                                },
+                                "trailing_content": {
+                                    "title": "The Alien Burger Meal",
+                                    "price": "AED 76",
+                                    "original_price": ""
+                                },
+                                "action": {
+                                    "type": "deep-link",
+                                    "url": "careemfood://restaurants/1010389/menu/items/2424221517"
+                                },
+                                "event_configuration": {
+                                    "entity": {
+                                        "name": "itemcard",
+                                        "attributes": {
+                                            "amount": 76,
+                                            "currency": "AED",
+                                            "item_availability": true,
+                                            "item_id": 2424221517,
+                                            "item_name": "The Alien Burger Meal"
+                                        }
+                                    },
+                                    "extras": {
+                                        "domain": "mot",
+                                        "sub_domain": "food"
+                                    }
+                                }
+                            }
+                        ],
+                        "event_configuration": {
+                            "entity": {
+                                "name": "merchant",
+                                "attributes": {
+                                    "brand_id": 1005243,
+                                    "brand_name": "Alien Burger - UAE",
+                                    "eta_minutes": 50,
+                                    "eta_range": "45 - 55",
+                                    "merchant_id": 1010389,
+                                    "merchant_name": "Alien Burger",
+                                    "merchant_rating": 4.8,
+                                    "no_of_reviews": 3133
+                                }
+                            }
+                        },
+                        "background_color": "primary"
+                    }
+                ]
+            }
+        ]
+    }
+}
