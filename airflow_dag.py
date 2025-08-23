@@ -309,7 +309,7 @@ success_notification_task = PythonOperator(
     dag=dag,
 )
 
-# Task dependencies
+# Task dependencies #can be changed accordingly
 validate_config_task >> scrape_task >> validate_output_task >> generate_report_task
 validate_output_task >> cleanup_task
 generate_report_task >> success_notification_task
