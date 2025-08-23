@@ -10,3 +10,26 @@
 2025-08-21 22:45:33,280 - __main__ - INFO - Total promos scraped: 9
 2025-08-21 22:45:33,281 - __main__ - INFO - Saved 9 promos to output/careem_promos_20250821_224533.csv
 2025-08-21 22:45:33,281 - __main__ - INFO - Demo scraping completed successfully. Output: output/careem_promos_20250821_224533.csv
+2025-08-22 17:32:51,701 - __main__ - INFO - Starting Careem promotional scraper
+2025-08-22 17:32:51,701 - __main__ - INFO - Starting to scrape surface: homepage
+2025-08-22 17:32:52,487 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=3
+2025-08-22 17:32:57,221 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=3
+2025-08-22 17:33:01,914 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=3
+2025-08-22 17:33:01,914 - __main__ - ERROR - Failed to scrape surface homepage: RetryError[<Future at 0x101ce6990 state=finished raised HTTPError>]
+2025-08-22 17:33:03,919 - __main__ - INFO - Starting to scrape surface: search
+2025-08-22 17:33:04,596 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-22 17:33:09,280 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-22 17:33:14,010 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-22 17:33:14,010 - __main__ - ERROR - Failed to scrape surface search: RetryError[<Future at 0x101c767b0 state=finished raised HTTPError>]
+2025-08-22 17:33:16,013 - __main__ - INFO - Starting to scrape surface: category_burgers
+2025-08-22 17:33:16,701 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-22 17:33:21,396 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-22 17:33:26,112 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-22 17:33:26,113 - __main__ - ERROR - Failed to scrape surface category_burgers: RetryError[<Future at 0x101c6fe50 state=finished raised HTTPError>]
+2025-08-22 17:33:28,118 - __main__ - INFO - Starting to scrape surface: category_groceries
+2025-08-22 17:33:28,788 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=5
+2025-08-22 17:33:33,514 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=5
+2025-08-22 17:33:38,260 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=5
+2025-08-22 17:33:38,261 - __main__ - ERROR - Failed to scrape surface category_groceries: RetryError[<Future at 0x101e77020 state=finished raised HTTPError>]
+2025-08-22 17:33:40,261 - __main__ - INFO - Total promos scraped: 0
+2025-08-22 17:33:40,262 - __main__ - WARNING - No promotional data found
