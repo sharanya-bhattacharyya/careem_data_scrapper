@@ -509,7 +509,7 @@ def main():
     """Main function to run the scraper."""
     scraper = CareemScraper()
     
-    print("🚀 Starting Careem promotional scraper")
+    print(" Starting Careem promotional scraper")
     
     # Scrape all surfaces
     promos = scraper.scrape_all_surfaces()
