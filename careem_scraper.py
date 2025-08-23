@@ -473,7 +473,7 @@ class CareemScraper:
             all_promos.extend(promos)
             
             # Add delay between surfaces
-            time.sleep(2)
+            time.sleep(5)
         
         return all_promos
     
@@ -509,7 +509,7 @@ def main():
     """Main function to run the scraper."""
     scraper = CareemScraper()
     
-    print(" Starting Careem promotional scraper")
+    print("Starting Careem promotional scraper")
     
     # Scrape all surfaces
     promos = scraper.scrape_all_surfaces()
