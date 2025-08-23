@@ -1,35 +1,116 @@
-2025-08-21 22:45:25,226 - __main__ - INFO - Starting Careem promotional scraper (DEMO MODE)
-2025-08-21 22:45:25,226 - __main__ - INFO - Starting to scrape surface: homepage
-2025-08-21 22:45:26,247 - __main__ - INFO - Scraped 4 promos from homepage
-2025-08-21 22:45:27,250 - __main__ - INFO - Starting to scrape surface: search
-2025-08-21 22:45:28,256 - __main__ - INFO - Scraped 3 promos from search
-2025-08-21 22:45:29,261 - __main__ - INFO - Starting to scrape surface: category_burgers
-2025-08-21 22:45:30,265 - __main__ - INFO - Scraped 1 promos from category_burgers
-2025-08-21 22:45:31,270 - __main__ - INFO - Starting to scrape surface: category_groceries
-2025-08-21 22:45:32,275 - __main__ - INFO - Scraped 1 promos from category_groceries
-2025-08-21 22:45:33,280 - __main__ - INFO - Total promos scraped: 9
-2025-08-21 22:45:33,281 - __main__ - INFO - Saved 9 promos to output/careem_promos_20250821_224533.csv
-2025-08-21 22:45:33,281 - __main__ - INFO - Demo scraping completed successfully. Output: output/careem_promos_20250821_224533.csv
-2025-08-22 17:32:51,701 - __main__ - INFO - Starting Careem promotional scraper
-2025-08-22 17:32:51,701 - __main__ - INFO - Starting to scrape surface: homepage
-2025-08-22 17:32:52,487 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=3
-2025-08-22 17:32:57,221 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=3
-2025-08-22 17:33:01,914 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=3
-2025-08-22 17:33:01,914 - __main__ - ERROR - Failed to scrape surface homepage: RetryError[<Future at 0x101ce6990 state=finished raised HTTPError>]
-2025-08-22 17:33:03,919 - __main__ - INFO - Starting to scrape surface: search
-2025-08-22 17:33:04,596 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
-2025-08-22 17:33:09,280 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
-2025-08-22 17:33:14,010 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
-2025-08-22 17:33:14,010 - __main__ - ERROR - Failed to scrape surface search: RetryError[<Future at 0x101c767b0 state=finished raised HTTPError>]
-2025-08-22 17:33:16,013 - __main__ - INFO - Starting to scrape surface: category_burgers
-2025-08-22 17:33:16,701 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
-2025-08-22 17:33:21,396 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
-2025-08-22 17:33:26,112 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
-2025-08-22 17:33:26,113 - __main__ - ERROR - Failed to scrape surface category_burgers: RetryError[<Future at 0x101c6fe50 state=finished raised HTTPError>]
-2025-08-22 17:33:28,118 - __main__ - INFO - Starting to scrape surface: category_groceries
-2025-08-22 17:33:28,788 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=5
-2025-08-22 17:33:33,514 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=5
-2025-08-22 17:33:38,260 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=5
-2025-08-22 17:33:38,261 - __main__ - ERROR - Failed to scrape surface category_groceries: RetryError[<Future at 0x101e77020 state=finished raised HTTPError>]
-2025-08-22 17:33:40,261 - __main__ - INFO - Total promos scraped: 0
-2025-08-22 17:33:40,262 - __main__ - WARNING - No promotional data found
+2025-08-23 19:25:47,183 - __main__ - INFO - Starting Careem promotional scraper
+2025-08-23 19:25:47,183 - __main__ - INFO - Starting to scrape surface: homepage
+2025-08-23 19:25:47,999 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=3
+2025-08-23 19:25:52,690 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=3
+2025-08-23 19:25:57,394 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=3
+2025-08-23 19:25:57,394 - __main__ - ERROR - Failed to scrape surface homepage: RetryError[<Future at 0x106466ad0 state=finished raised HTTPError>]
+2025-08-23 19:25:59,396 - __main__ - INFO - Starting to scrape surface: search
+2025-08-23 19:26:00,159 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-23 19:26:04,874 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-23 19:26:09,593 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-23 19:26:09,594 - __main__ - ERROR - Failed to scrape surface search: RetryError[<Future at 0x106272690 state=finished raised HTTPError>]
+2025-08-23 19:26:11,594 - __main__ - INFO - Starting to scrape surface: category_burgers
+2025-08-23 19:26:12,293 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-23 19:26:17,027 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-23 19:26:21,754 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-23 19:26:21,754 - __main__ - ERROR - Failed to scrape surface category_burgers: RetryError[<Future at 0x10625fe50 state=finished raised HTTPError>]
+2025-08-23 19:26:23,758 - __main__ - INFO - Starting to scrape surface: category_groceries
+2025-08-23 19:26:24,478 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=5
+2025-08-23 19:26:29,196 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=5
+2025-08-23 19:26:33,914 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=5
+2025-08-23 19:26:33,914 - __main__ - ERROR - Failed to scrape surface category_groceries: RetryError[<Future at 0x106477020 state=finished raised HTTPError>]
+2025-08-23 19:26:35,915 - __main__ - INFO - Total promos scraped: 0
+2025-08-23 19:26:35,915 - __main__ - WARNING - No promotional data found
+2025-08-23 20:43:35,170 - __main__ - INFO - Starting to scrape surface: homepage
+2025-08-23 20:43:36,087 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=3
+2025-08-23 20:43:40,832 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=3
+2025-08-23 20:43:45,558 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=3
+2025-08-23 20:43:45,559 - __main__ - ERROR - Failed to scrape surface homepage: RetryError[<Future at 0x103f32ad0 state=finished raised HTTPError>]
+2025-08-23 20:43:47,564 - __main__ - INFO - Starting to scrape surface: search
+2025-08-23 20:43:48,482 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-23 20:43:53,167 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-23 20:43:57,878 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-23 20:43:57,879 - __main__ - ERROR - Failed to scrape surface search: RetryError[<Future at 0x103d83650 state=finished raised HTTPError>]
+2025-08-23 20:43:59,884 - __main__ - INFO - Starting to scrape surface: category_burgers
+2025-08-23 20:44:00,590 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-23 20:44:05,319 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-23 20:44:10,021 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-23 20:44:10,021 - __main__ - ERROR - Failed to scrape surface category_burgers: RetryError[<Future at 0x103d87650 state=finished raised HTTPError>]
+2025-08-23 20:44:12,027 - __main__ - INFO - Starting to scrape surface: category_groceries
+2025-08-23 20:44:12,763 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=5
+2025-08-23 20:44:17,480 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=5
+2025-08-23 20:44:22,200 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=5
+2025-08-23 20:44:22,200 - __main__ - ERROR - Failed to scrape surface category_groceries: RetryError[<Future at 0x103f3ad50 state=finished raised HTTPError>]
+2025-08-23 20:45:35,901 - __main__ - INFO - Starting to scrape surface: homepage
+2025-08-23 20:45:36,694 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=3
+2025-08-23 20:45:41,381 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=3
+2025-08-23 20:45:46,073 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=3
+2025-08-23 20:45:46,073 - __main__ - ERROR - Failed to scrape surface homepage: RetryError[<Future at 0x10219aad0 state=finished raised HTTPError>]
+2025-08-23 20:45:48,078 - __main__ - INFO - Starting to scrape surface: food_home
+2025-08-23 20:45:48,778 - __main__ - ERROR - API request failed for food-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-discovery-home
+2025-08-23 20:45:53,473 - __main__ - ERROR - API request failed for food-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-discovery-home
+2025-08-23 20:45:58,169 - __main__ - ERROR - API request failed for food-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-discovery-home
+2025-08-23 20:45:58,169 - __main__ - ERROR - Failed to scrape surface food_home: RetryError[<Future at 0x101f93650 state=finished raised HTTPError>]
+2025-08-23 20:46:00,174 - __main__ - INFO - Starting to scrape surface: search
+2025-08-23 20:46:00,857 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-23 20:46:05,559 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-23 20:46:10,243 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-23 20:46:10,243 - __main__ - ERROR - Failed to scrape surface search: RetryError[<Future at 0x101f97850 state=finished raised HTTPError>]
+2025-08-23 20:46:12,247 - __main__ - INFO - Starting to scrape surface: category_burgers
+2025-08-23 20:46:12,926 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-23 20:46:17,633 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-23 20:46:22,331 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-23 20:46:22,332 - __main__ - ERROR - Failed to scrape surface category_burgers: RetryError[<Future at 0x1021a2d50 state=finished raised HTTPError>]
+2025-08-23 20:46:24,337 - __main__ - INFO - Starting to scrape surface: category_groceries
+2025-08-23 20:46:25,032 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=5
+2025-08-23 20:46:29,721 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=5
+2025-08-23 20:46:34,403 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=5
+2025-08-23 20:46:34,403 - __main__ - ERROR - Failed to scrape surface category_groceries: RetryError[<Future at 0x1021c2340 state=finished raised HTTPError>]
+2025-08-23 20:49:53,567 - __main__ - INFO - Starting to scrape surface: homepage
+2025-08-23 20:49:54,367 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=3
+2025-08-23 20:49:59,060 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=3
+2025-08-23 20:50:03,763 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=3
+2025-08-23 20:50:03,763 - __main__ - ERROR - Failed to scrape surface homepage: RetryError[<Future at 0x10210ac10 state=finished raised HTTPError>]
+2025-08-23 20:50:05,766 - __main__ - INFO - Starting to scrape surface: food_home
+2025-08-23 20:50:07,305 - __main__ - INFO - Extracted 253 promotional items from food_home
+2025-08-23 20:50:09,311 - __main__ - INFO - Starting to scrape surface: search
+2025-08-23 20:50:10,332 - __main__ - INFO - Extracted 25 promotional items from search
+2025-08-23 20:50:12,336 - __main__ - INFO - Starting to scrape surface: category_burgers
+2025-08-23 20:50:13,055 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-23 20:50:17,755 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-23 20:50:22,434 - __main__ - ERROR - API request failed for food-hybrid-dishes-search: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/food-hybrid-dishes-search?query=Burger
+2025-08-23 20:50:22,436 - __main__ - ERROR - Failed to scrape surface category_burgers: RetryError[<Future at 0x1021159d0 state=finished raised HTTPError>]
+2025-08-23 20:50:24,440 - __main__ - INFO - Starting to scrape surface: category_groceries
+2025-08-23 20:50:25,135 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=5
+2025-08-23 20:50:29,818 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=5
+2025-08-23 20:50:34,544 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=5
+2025-08-23 20:50:34,544 - __main__ - ERROR - Failed to scrape surface category_groceries: RetryError[<Future at 0x1021128a0 state=finished raised HTTPError>]
+2025-08-23 20:50:36,553 - __main__ - INFO - Saved 278 promotional items to output/careem_promos_20250823_205036.csv
+2025-08-23 21:22:16,697 - __main__ - INFO - Starting to scrape surface: homepage
+2025-08-23 21:22:17,578 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=3
+2025-08-23 21:22:22,265 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=3
+2025-08-23 21:22:27,018 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=3
+2025-08-23 21:22:27,018 - __main__ - ERROR - Failed to scrape surface homepage: RetryError[<Future at 0x106022c10 state=finished raised HTTPError>]
+2025-08-23 21:22:29,023 - __main__ - INFO - Starting to scrape surface: food_home
+2025-08-23 21:22:30,571 - __main__ - INFO - Extracted 253 promotional items from food_home
+2025-08-23 21:22:32,576 - __main__ - INFO - Starting to scrape surface: search
+2025-08-23 21:22:33,665 - __main__ - INFO - Extracted 25 promotional items from search
+2025-08-23 21:22:35,671 - __main__ - INFO - Starting to scrape surface: category_burgers
+2025-08-23 21:22:36,922 - __main__ - INFO - Extracted 25 promotional items from category_burgers
+2025-08-23 21:22:38,927 - __main__ - INFO - Starting to scrape surface: category_groceries
+2025-08-23 21:22:39,949 - __main__ - INFO - Extracted 233 promotional items from category_groceries
+2025-08-23 21:22:41,959 - __main__ - INFO - Saved 536 promotional items to output/careem_promos_20250823_212241.csv
+2025-08-23 21:32:57,340 - __main__ - INFO - Starting to scrape surface: homepage
+2025-08-23 21:32:58,172 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=3
+2025-08-23 21:33:02,899 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=3
+2025-08-23 21:33:07,652 - __main__ - ERROR - API request failed for ea-discovery-home: 401 Client Error: Unauthorized for url: https://appengine.careemapis.com/v1/page/ea-discovery-home?selectedServiceAreaId=0&refreshCounter=3
+2025-08-23 21:33:07,652 - __main__ - ERROR - Failed to scrape surface homepage: RetryError[<Future at 0x10654ac10 state=finished raised HTTPError>]
+2025-08-23 21:33:09,654 - __main__ - INFO - Starting to scrape surface: food_home
+2025-08-23 21:33:11,493 - __main__ - INFO - Extracted 253 promotional items from food_home
+2025-08-23 21:33:13,498 - __main__ - INFO - Starting to scrape surface: search
+2025-08-23 21:33:14,579 - __main__ - INFO - Extracted 25 promotional items from search
+2025-08-23 21:33:16,585 - __main__ - INFO - Starting to scrape surface: category_burgers
+2025-08-23 21:33:17,624 - __main__ - INFO - Extracted 25 promotional items from category_burgers
+2025-08-23 21:33:19,630 - __main__ - INFO - Starting to scrape surface: category_groceries
+2025-08-23 21:33:20,754 - __main__ - INFO - Extracted 233 promotional items from category_groceries
+2025-08-23 21:33:22,766 - __main__ - INFO - Saved 536 promotional items to output/careem_promos_20250823_213322.csv
