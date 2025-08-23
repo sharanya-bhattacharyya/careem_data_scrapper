@@ -1,13 +1,3 @@
-"""
-Airflow DAG for Careem UAE Promotional Scraper
-
-This DAG orchestrates the complete workflow for scraping promotional placements
-from the Careem UAE app and saving them to CSV files.
-
-Author: AI Assistant
-Date: 2025-01-21
-"""
-
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.python import PythonOperator
